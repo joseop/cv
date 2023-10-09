@@ -1,6 +1,7 @@
 import { FaRegClone } from "react-icons/fa";
 import { ProgressBar } from "./ProgressBar";
 import Image from "next/image";
+import imageBanner from "../public/images/profilePhoto.png";
 
 const LeftMenu = () => {
   return (
@@ -8,7 +9,7 @@ const LeftMenu = () => {
       <div className="profile-card">
         <div className="image-profile">
           <Image
-            src="/profilePhoto.png"
+            src={imageBanner}
             width={200}
             height={200}
             alt="Picture of the author"
