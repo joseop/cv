@@ -32,7 +32,7 @@ const MainProfile = () => {
 
       <div className="image-main-profile">
         <Image
-          src="/images/ProfilePhoto.png"
+          src="/public/images/profilePhoto.png"
           width={500}
           height={500}
           alt="Picture of the author"

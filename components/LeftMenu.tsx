@@ -8,7 +8,7 @@ const LeftMenu = () => {
       <div className="profile-card">
         <div className="image-profile">
           <Image
-            src="/images/ProfilePhoto.png"
+            src="/public/images/UdeA.png"
             width={200}
             height={200}
             alt="Picture of the author"
