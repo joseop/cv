@@ -1,39 +1,52 @@
 import Link from "next/link";
 import {
-  FaLinkedin,
-  FaGithubSquare,
-  FaFacebookSquare,
-  FaTwitterSquare,
-  FaInstagramSquare,
-  FaYoutubeSquare,
+  FaLinkedinIn,
+  FaGithub,
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaYoutube,
 } from "react-icons/fa";
 
 const RightMenu = () => {
   return (
     <section className="right-menu">
-      <h3>Links</h3>
+      <h3 className="text-3xl">Links</h3>
+
       <Link href="https://www.linkedin.com/in/joseortizp/" target="blank">
-        <FaLinkedin className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaLinkedinIn className="redes-icon" />
+        </div>
       </Link>
 
       <Link href="https://github.com/joseop" target="blank">
-        <FaGithubSquare className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaGithub className="redes-icon" />
+        </div>
       </Link>
 
       <Link href="https://facebook.com" target="blank">
-        <FaFacebookSquare className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaFacebookF className=" redes-icon" />
+        </div>
       </Link>
 
       <Link href="https://instagram.com" target="blank">
-        <FaInstagramSquare className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaInstagram className=" redes-icon" />
+        </div>
       </Link>
 
       <Link href="https://twitter.com" target="blank">
-        <FaTwitterSquare className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaTwitter className=" redes-icon" />
+        </div>
       </Link>
 
       <Link href="https://youtube.com" target="blank">
-        <FaYoutubeSquare className="icon redes-icon" />
+        <div className="conteiner-icon">
+          <FaYoutube className=" redes-icon" />
+        </div>
       </Link>
     </section>
   );

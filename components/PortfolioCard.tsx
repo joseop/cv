@@ -30,12 +30,12 @@ const PortfolioCard = ({
       <div className="information-portfolio">
         <h3>{title}</h3>
         <p>{description}</p>
-        <button>
-          <Link target="_blank" href={url}>
+        <Link target="_blank" href={url}>
+          <button>
             <h3>Visit site</h3>
             <FaAngleRight />
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );

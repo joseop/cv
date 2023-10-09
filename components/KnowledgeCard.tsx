@@ -9,7 +9,7 @@ const KnowledgeCard = ({ icon, title, paragraph }: KnowledgeCardProps) => {
     <div className="knowledge-card">
       <div>{icon}</div>
       <h3>{title}</h3>
-      <p>{paragraph}</p>
+      <p className="text-center">{paragraph}</p>
     </div>
   );
 };

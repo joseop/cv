@@ -14,7 +14,7 @@ const MainContent = () => {
       <div>
         <SectionIntroduction
           title="My Knowledge "
-          description="I am a student in the systems engineering program at the University of Antioquia, passionate about software development. I define myself as someone who enjoys learning new technologies and facing new challenges."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
         <MyKnowledge />
       </div>
@@ -22,7 +22,7 @@ const MainContent = () => {
       <div>
         <SectionIntroduction
           title="Education"
-          description="I am a student in the systems engineering program at the University of Antioquia, passionate about software development. I define myself as someone who enjoys learning new technologies and facing new challenges."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
         <Education />
       </div>
@@ -30,9 +30,9 @@ const MainContent = () => {
       <div>
         <SectionIntroduction
           title="Portfolio"
-          description="I am a student in the systems engineering program at the University of Antioquia, passionate about software development. I define myself as someone who enjoys learning new technologies and facing new challenges."
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />
-        <div className="flex max-w-full overflow-x-auto">
+        <div className="snap-x scroll-smooth md:scroll-auto">
           <Portfolio />
         </div>
       </div>

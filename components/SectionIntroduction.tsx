@@ -10,7 +10,7 @@ const SectionIntroduction = ({
   return (
     <div className="section-introduction">
       <h2>{title}</h2>
-      <p className="w-2/4">{description}</p>
+      <p className="w-2/4 text-center">{description}</p>
     </div>
   );
 };

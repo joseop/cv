@@ -28,7 +28,7 @@ p {
 }
 
 .left-menu {
-  @apply w-[22%] gap-2 bg-white flex flex-col items-center px-12 py-2;
+  @apply max-h-screen w-[22%] gap-2 bg-white flex flex-col items-center px-12 py-2 fixed;
 }
 
 .profile-card {
@@ -81,9 +81,7 @@ progress::-webkit-progress-value {
 .icon {
   @apply text-amber-600 flex flex-col;
 }
-.redes-icon {
-  @apply text-6xl mx-4 rounded-full;
-}
+
 .main-content {
   @apply w-[70%] flex flex-col bg-white;
 }
@@ -97,9 +95,11 @@ header {
 }
 
 .button {
-  @apply flex justify-center text-black bg-amber-600 rounded-md py-2 px-5 w-36;
+  @apply bg-amber-600 shadow-lg rounded-md p-4 w-36 hover:scale-110 transition-transform ease-in-out
+  hover:bg-amber-500 hover:text-white;
 }
-.button > a {
+
+.button > button {
   @apply flex gap-2 items-center;
 }
 
@@ -112,11 +112,11 @@ header {
 }
 
 .knowledge-card {
-  @apply flex flex-col items-center bg-white py-8 px-14 gap-4;
+  @apply flex flex-col items-center bg-white py-8 px-14 gap-4 hover:scale-105 transition-transform duration-300 ease-in-out;
 }
 
 .knowledge-card > div {
-  @apply bg-white text-amber-600 text-9xl;
+  @apply bg-white text-amber-600 text-9xl hover:text-amber-500;
 }
 
 .education {
@@ -124,7 +124,7 @@ header {
 }
 
 .education-item {
-  @apply flex gap-36 py-10 px-8;
+  @apply flex gap-36 py-10 px-8 hover:scale-105 transition-transform duration-300 ease-in-out;
 }
 
 .education-item > div {
@@ -136,31 +136,39 @@ header {
 }
 
 .portfolio-card {
-  @apply flex flex-col text-left bg-white gap-4 w-96;
+  @apply flex flex-col text-left bg-white gap-4 hover:scale-x-105 transition-transform ease-in-out;
 }
 
 .image-portfolio {
-  @apply mt-9;
+  @apply mt-9 w-96;
 }
 
 .information-portfolio {
   @apply flex flex-col  bg-white gap-3 mx-6 mb-4;
 }
 
-.information-portfolio > button {
-  @apply flex justify-start bg-white text-amber-600;
+.information-portfolio > a {
+  @apply flex justify-start bg-white w-28 p-1 text-amber-600 hover:scale-110 transition-transform ease-in-out;
 }
 
-.information-portfolio > button > a {
-  @apply flex gap-1 items-center underline;
+.information-portfolio > a > button {
+  @apply flex gap-1 items-center underline hover:text-amber-400;
 }
 
 .right-menu {
-  @apply bg-white gap-3 flex flex-col items-center;
+  @apply h-screen bg-white gap-3 flex flex-col items-center fixed right-0;
 }
 
 .right-menu > h3 {
   @apply flex m-2 mt-10 gap-5;
+}
+
+.conteiner-icon {
+  @apply bg-amber-600 rounded-full shadow-md p-2 mx-3 my-1 hover:scale-110 transition-transform ease-in-out hover:bg-amber-500;
+}
+
+.redes-icon {
+  @apply text-white text-5xl;
 }
 
 footer {

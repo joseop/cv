@@ -17,12 +17,17 @@ const MainProfile = () => {
           someone who enjoys learning new technologies and facing new
           challenges.
         </p>
-        <button className="button">
-          <Link target="_blank" href="https://www.linkedin.com/in/joseortizp/">
+
+        <Link
+          className="button"
+          target="_blank"
+          href="https://www.linkedin.com/in/joseortizp/"
+        >
+          <button>
             <h3> Hire Me</h3>
             <FaArrowRight />
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
 
       <div className="image-main-profile">
