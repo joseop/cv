@@ -1,13 +1,17 @@
+import { IconType } from "react-icons";
+
 interface KnowledgeCardProps {
-  icon: React.ReactNode;
+  Icon: IconType;
   title: string;
   paragraph: string;
 }
 
-const KnowledgeCard = ({ icon, title, paragraph }: KnowledgeCardProps) => {
+const KnowledgeCard = ({ Icon, title, paragraph }: KnowledgeCardProps) => {
   return (
     <div className="knowledge-card">
-      <div>{icon}</div>
+      <div>
+        <Icon />
+      </div>
       <h3>{title}</h3>
       <p className="text-center">{paragraph}</p>
     </div>

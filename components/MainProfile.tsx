@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
-import imageBanner from "../public/images/profilePhoto.png";
-
 const MainProfile = () => {
   return (
     <header>
@@ -33,10 +31,10 @@ const MainProfile = () => {
 
       <div className="image-main-profile">
         <Image
-          src={imageBanner}
-          width={500}
+          src={'/images/profilePhoto.png'}
           height={500}
-          alt="Picture of the author"
+          width={500}
+          alt="Picture"
         />
       </div>
     </header>

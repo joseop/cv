@@ -8,40 +8,35 @@ const Portfolio = () => {
         subtitle="student at the University of Antioquia"
         title="University of Antioquia"
         description="The University of Antioquia (UdeA) is a public university located in Medellín, Colombia."
-        imagePortfolio={UdeA}
-        url="https://udea.edu.co/wps/portal/udea/web/inicio"
+        url="/images/UdeA.png"
       />
 
       <PortfolioCard
         subtitle="student at the University of Antioquia"
         title="University of Antioquia"
         description="The University of Antioquia (UdeA) is a public university located in Medellín, Colombia."
-        imagePortfolio={UdeA}
-        url="https://udea.edu.co/wps/portal/udea/web/inicio"
+        url="/images/UdeA.png"
       />
 
       <PortfolioCard
         subtitle="student at the University of Antioquia"
         title="University of Antioquia"
         description="The University of Antioquia (UdeA) is a public university located in Medellín, Colombia."
-        imagePortfolio={UdeA}
-        url="https://udea.edu.co/wps/portal/udea/web/inicio"
+        url="/images/UdeA.png"
       />
 
       <PortfolioCard
         subtitle="student at the University of Antioquia"
         title="University of Antioquia"
         description="The University of Antioquia (UdeA) is a public university located in Medellín, Colombia."
-        imagePortfolio={UdeA}
-        url="https://udea.edu.co/wps/portal/udea/web/inicio"
+        url="/images/UdeA.png"
       />
 
       <PortfolioCard
         subtitle="student at the University of Antioquia"
         title="University of Antioquia"
         description="The University of Antioquia (UdeA) is a public university located in Medellín, Colombia."
-        imagePortfolio={UdeA}
-        url="https://udea.edu.co/wps/portal/udea/web/inicio"
+        url="/images/UdeA.png"
       />
     </div>
   );
